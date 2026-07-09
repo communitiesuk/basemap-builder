@@ -21,8 +21,6 @@ Check that the two GeoPackage files you want to use are named in this script, an
 
 Update the `CTRYXXNM` variable to match the year specified in the `CLIP_LAYER` file.
 
-Run `brew install gdal`.
-
 To make the file executable run `chmod +x clip_parallel.sh` from within the terminal. Then run it with `./clip_parallel.sh`.
 
 Depending on the layers that you have selected this could take **several days**. Make sure that your computer doesn't go to sleep by adjusting your battery settings or by running `caffeinate -i` in another terminal - remember to terminate this when the process is finished.
