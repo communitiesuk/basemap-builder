@@ -1,6 +1,8 @@
 # basemap-builder
 Creating a custom vector tiles basemap for web mapping from OS Open Zoomstack. 
 
+As well as the packages in this repo (`npm install`), you will need [gdal](https://gdal.org/) installed on your computer. To do this on a mac, if you have homebrew installed you can run `brew install gdal`.
+
 ## 1. Get OS Open Zoomstack
 Go to [the OS Data Hub](https://osdatahub.os.uk/data/downloads/open/OpenZoomstack) and download the GeoPackage version of OS Open Zoomstack.
 
